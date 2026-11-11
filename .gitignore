@@ -1,0 +1,24 @@
+# Entornos virtuales e intérpretes
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+
+# Archivos temporales de conversión o checkpoints locales intermedios
+*.safetensors
+*.bin
+
+# Carpeta de outputs locales (para no subir las imágenes generadas al repo de código)
+outputs/
+
+# Archivos de caché del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos dll
+*.exe
+*.dll
+ggml.txt
+start-server.*
